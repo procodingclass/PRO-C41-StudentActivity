@@ -16,7 +16,7 @@ class Form {
       player.name = this.input.value();
       playerCount += 1;
       player.index = playerCount;
-      console.log(player.index);
+      
       player.addPlayer();
       player.updateCount(playerCount);
       this.greetings.html("Hello " + player.name);
